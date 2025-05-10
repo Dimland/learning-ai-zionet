@@ -179,7 +179,7 @@ public class GitPlugin
             if (localBranch == null)
             {
                 return $"Error: Branch '{branch}' not found.";
-            }
+            } 
 
             var origin = repo.Network.Remotes["origin"];
             var spec = $"refs/heads/{branch}:refs/heads/{branch}";
